@@ -1,0 +1,272 @@
+.gridcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background-color: #aeeeb8;
+    flex-direction: column;
+    padding: 5px 60px;     
+}
+.gridcontainer ul {
+    list-style: none;
+  }
+  
+  .gridcontainer li {
+    display: inline;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  .gridcontainer li a{
+    color: #271e1e;
+    text-decoration: none;
+  }
+
+  .searchContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchInput {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 200px; /* Adjust width as needed */
+  }
+  
+  .searchButton {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .searchButton:hover {
+    background-color: #45a049;
+  }
+  .logo {
+    margin-left: auto;
+  }
+
+  .secondSection{
+    justify-content: space-between;
+    align-items: start;
+    background-color: #353838;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 60px;
+  }
+
+  .secondSection ul {
+    list-style: none;
+  }
+  
+  .secondSection li {
+    display: inline;
+    margin-left: 50px;
+    text-decoration: none;
+  }
+  
+  .secondSection li a{
+    color: #f5ecec;
+    text-decoration: none;
+  }
+
+  .allProducts{
+    display: inline;
+  }
+
+  .loginContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .gridContainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: auto;
+  }
+  .product{
+    padding: 40px;
+    /* border: 1px solid #f4f5f0; */
+  }
+
+  .productImage{
+    width: 240px;
+    height: 290px;
+  }
+
+  .about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  .about ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .about ul li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .contactUs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contactUs h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .contactUs h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-us p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  .contactInfo {
+    margin-bottom: 30px;
+  }
+  
+  .contactInfo p {
+    margin-bottom: 10px;
+  }
+  
+  .contactForm {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .contactForm label {
+    font-weight: bold;
+  }
+  
+  .contactForm .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .contactForm input[type="text"],
+  .contactForm input[type="email"],
+  .contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contactForm textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .contactForm button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contactForm button:hover {
+    background-color: #0056b3;
+  }
+
+  .loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .loginForm {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .loginForm h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .formGroup {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .formGroup input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  .footer {
+    background-color: #8296aa;
+    padding: 20px 0;
+  }
+  
+  .footer .container {
+    text-align: center;
+  }
+  
+  .footer h4 {
+    color: #333;
+  }
+  
+  .footer p {
+    color: #e3fcfc;
+  }
